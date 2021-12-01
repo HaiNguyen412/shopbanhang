@@ -1,0 +1,68 @@
+/* ADMIN CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    transition: all linear .3s;
+    outline: none;
+}
+table, 
+td, 
+th{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+}
+input{
+    outline: none;
+    width: 100%;
+    border: none;
+}
+.wrapper{
+    /* border: 1px solid rgb(167, 151, 151); */
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+}
+.main{
+    width: 100%;
+    background-color: #ccc;
+}
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+
+}
+.admin-title{
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: orange;
+}
+.menu{
+    background-color: burlywood;
+    height: 40px;
+}
+.admin-menu-list{
+    display: flex;
+}
+
+.admin-menu-list a{
+    display: block;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding: 0 12px;
+    color: #000;
+}
+.admin-menu-list a:hover{
+    background-color: #ccc;
+}
